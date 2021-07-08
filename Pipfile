@@ -1,0 +1,20 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pre-commit = "==2.12.1"
+bandit = "==1.7.0"
+mypy = "==0.812"
+isort = "==5.8.0"
+black = "==21.5b1"
+flake8 = "==3.9.2"
+pylint = "==2.8.2"
+
+[packages]
+alembic = "==1.6.5"
+psycopg2-binary = "==2.8.6"
+
+[requires]
+python_version = "3.8"
